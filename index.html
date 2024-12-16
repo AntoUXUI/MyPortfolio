@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Antonio D'Addio</title>
+    <link rel="stylesheet" href="Asset/css/style.css" />
+    <link rel="stylesheet" href="Asset/css/mediaqueries.css">
+    <link rel="icon" type="image/png" href="Asset/img/AD48px.png">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav id="desktop-nav">
+        <img src="/Asset/img/AD32px.png" alt="Antonio d'addio simbolo">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cv">CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Antonio D'Addio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Asset/img/profile-pic.png" alt="Antonio D'Addio profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Antonio D'Addio</h1>
+            <p class="section__text__p2">UX/UI Designer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                        onclick="window.open('./Asset/img/CV-Antonio.pdf', '_blank')" 
+                        aria-label="Download CV">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" 
+                        onclick="location.href='#contact'" 
+                        aria-label="Contact Info">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-containers">
+                <img src="./Asset/img/linkedin.png" 
+                     alt="LinkedIn Profile" 
+                     class="icon"
+                     onclick="window.open('https://linkedin.com/in/antonio-d-addio-a09b61257/', '_blank')" 
+                     aria-label="LinkedIn Profile">
+                <img src="./Asset/img/github.png" 
+                     alt="GitHub Profile" 
+                     class="icon"
+                     onclick="window.open('https://github.com/AntoUXUI', '_blank')" 
+                     aria-label="GitHub Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <!-- Left Container with Image -->
+            <div class="about-image">
+                <img src="./Asset/img/about-pic.png" alt="About Me Image">
+            </div>
+            <!-- Right Container with Description -->
+            <div class="about-description">
+                <h2>About Me</h2>
+                <p>
+                    Ciao sono Antonio D'Addio <strong>un UX/UI Designer </strong>con la passione per creare<span class="highlight"> intuitive, accessibili e funzionali</span>, mi piace lavorare in squadra e ho maturato già un esperienza di lavoro in team.
+                    all'Hacakthon Sprintaly 2024.
+                </p>
+                <p>
+                    Ho buone capacità di <span class="highlight"> problem solving</span>, <span class="highlight">creative</span> e <span class="highlight"> comunicative</span>. 
+                    Non mi perdo d'animo e metto tutto me stesso nei progetti che realizzo. 
+                    Per il futuro ambisco a diventare uno UI Artist nel mondo videoludico o occuparmi di UX/UI in tema di Accessiblità. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Project Card UI Desktop -->
+                <div class="project-card">
+                    <img src="Asset/img/UI-Desktop.png" alt="Progetto UI iVegan Desktop" class="Copertina-UI">
+                    <div class="project-content">
+                        <h3>Progetto UI Desktop iVegan </h3>
+                        <p>Ho realizzato l'interfaccia utente di iVegan uno e-coomerce di prodotti vegani</p>
+                        <a href="./Asset/pdf/Progetto-User-Interface-1.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+                <!-- Project Card UI Mobile -->
+                <div class="project-card">
+                    <img src="Asset/img/UI mobile.png" alt="Progetto UI iVegan mobile " class="project-image">
+                    <div class="project-content">
+                        <h3>Prgetto UI Mobile iVegan</h3>
+                        <p>Ho realizzato l'interfaccia utente di iVegan uno e-coomerce di prodotti vegani nella sua vesione mobile.</p>
+                        <a href="./Asset/pdf/Progetto-User-Interface-2.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+                <!-- Project Card Brand guidelines DNA -->
+                <div class="project-card">
+                    <img src="Asset/img/brand-guidelines.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Brand-Guideline DNA</h3>
+                        <p>Brand-Guideline per una rivista scientifica dal nome DNA, con annesso grafiche per i social</p>
+                        <a href="./Asset/pdf/DNA-Brand-Guidelines.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+
+                <!-- Project Card Accessibilità ivegan -->
+                <div class="project-card">
+                    <img src="Asset/img/access-1.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Accessiblità iVegan 1</h3>
+                        <p>Brand-Guideline per una rivista scientifica dal nome DNA, con annesso grafiche per i social</p>
+                        <a href="./Asset/pdf/Accesibilità-iVegan-1.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+
+
+                <!-- Project Card Accessibilita iVegan 2 -->
+                <div class="project-card">
+                    <img src="Asset/img/access-2.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Accessiblità iVegan 2</h3>
+                        <p>Brand-Guideline per una rivista scientifica dal nome DNA, con annesso grafiche per i social</p>
+                        <a href="./Asset/pdf/Progetto-Accessibilità-2-iVegan.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+                <!-- Project card wireframe desktop -->
+                <div class="project-card">
+                    <img src="Asset/img/wireframe-desktop.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Wireframe iVegan Desktop</h3>
+                        <p>Brand-Guideline per una rivista scientifica dal nome DNA, con annesso grafiche per i social</p>
+                        <a href="./Asset/pdf/Wireframe-1-iVegan.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+                <!-- Project Card wireframe mobile -->
+                <div class="project-card">
+                    <img src="Asset/img/wireframe-mobile.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Wireframe iVegan Mobile</h3>
+                        <p>Brand-Guideline per una rivista scientifica dal nome DNA, con annesso grafiche per i social</p>
+                        <a href="./Asset/pdf/Wireframing-2-iVegan.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div> <!-- Project Card Hackathon -->
+                <div class="project-card">
+                    <img src="Asset/img/greal-foto.png" alt="Project 3 Screenshot" class="project-image">
+                    <div class="project-content">
+                        <h3>Progetto Greal Hackaton- "Sprintaly" 2024</h3>
+                        <p>Ho partecipato all'ideazione e creazione dell'app "Greal" nel contesto dell'hackathon di Sprintaly 2024</p>
+                        <a href="./Asset/pdf/greal.pdf" class="project-link" target="_blank">Scopri il Progetto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <!-- Image Section -->
+        <div class="image-container" style="flex: 1;">
+            <img src="./Asset/img/contact-me-img.png" alt="Contact Illustration">
+        </div>
+        
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/xyzyabzk"  method="POST" style="flex: 2; display: flex; flex-direction: column; gap: 10px;">
+            <h2>Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        
+            <button type="submit">Send Message </button>
+        </form>
+    </section>
+    
+    
+    <!--CV Section-->
+    <section id="cv" class="cv-section">
+        <h2>Curriculum Vitae</h2>
+        <div class="cv-content">
+          <!-- Experience Section -->
+          <div class="cv-card">
+            <h3>Experience</h3>
+            <ul>
+              <li>
+                <strong>Sprintaly Hackathon 2024</strong> UX/UI Designer <br>
+                <small> Aprile 2024</small>
+                <p> Ho partecipato come UX/UI designer all'Hackathon di Sprintaly creando l'app greal.</p>
+              </li>
+              <li>
+                <strong>Graphic Designer</strong> - Freelance <br>
+                <small>2024-in corso</small>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Education Section -->
+          <div class="cv-card">
+            <h3>Education</h3>
+            <ul>
+              <li>
+                <strong>Star2Impact </strong> Master in UX/UI <br>
+                <small>2022 - 2024</small>
+                <p>Conosco e so applicare tutte le regole della UX 
+                creando UI funzionali con un occhio rivolto all'accessibilità</p>
+              </li>
+            </ul>
+          </div>
+      
+          <!-- Skills Section -->
+          <div class="cv-card">
+            <h3>Skills</h3>
+            <ul>
+              <li>UI/UX Design</li>
+              <li>Adobe Suite</li>
+              <li>Photography</li>
+              <li>HTML & CSS </li>
+              <li>Affinity Design</li>
+              <li>Figma</li>
+              <li>Framer</li>
+              <li>Accessibility check</li>
+            </ul>
+          </div>
+      
+          <!-- Languages Section -->
+          <div class="cv-card">
+            <h3>Languages</h3>
+            <ul>
+              <li><strong>Italian:</strong> Native</li>
+              <li><strong>English:</strong> B2 Level</li>
+            </ul>
+          </div>
+      
+          <!-- Hobbies Section -->
+          <div class="cv-card">
+            <h3>Hobbies</h3>
+            <ul>
+              <li>Photography</li>
+              <li>Videogame</li>
+              <li>Graphic Design</li>
+              <li>Reading</li>
+            </ul>
+          </div>
+        </div>
+    </section>
+    
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/AntoUXUI" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/antonio-d-addio-a09b61257" target="_blank">LinkedIn</a>
+            </div>
+            <p>&copy; 2024 Antonio D'Addio All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>    
+</body>
+</html>
