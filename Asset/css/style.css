@@ -157,26 +157,26 @@ section {
 
 /* BUTTONS */
 
-.btn-container {
+.mybtn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
     padding-bottom: 20px;
 }
 
-.btn {
+.mybtn {
     font-weight: 600;
     transition: all 300ms ease;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
+    padding: 16px;
+    width: 10rem;
+    border-radius: 3rem;
     background: #f2f2f2; /* Stato di default: grigio chiaro */
     color: #333; /* Testo scuro per contrasto */
     border: none;
     text-align: center;
 }
 
-.btn:hover {
+.mybtn:hover {
     cursor: pointer;
     background: #00a8e8ff; /* Stato di hover: blu */
     color: white; /* Testo bianco per contrasto */
@@ -184,27 +184,27 @@ section {
     transform: translateY(-2px); /* Leggero sollevamento al passaggio del mouse */
 }
 
-.btn-color-1, .btn-color-2 {
+.mybtn-color-1, .mybtn-color-2 {
     /* Uniformiamo gli stili base */
     border: none;
 }
 
-.btn-color-1 {
+.mybtn-color-1 {
     background: #f2f2f2;
     color: var(--color-text);
 }
 
-.btn-color-1:hover {
+.mybtn-color-1:hover {
     background: #00a8e8ff;
     color: white;
 }
 
-.btn-color-2 {
+.mybtn-color-2 {
     background: #f2f2f2;
     color: var(--color-text);
 }
 
-.btn-color-2:hover {
+.mybtn-color-2:hover {
     background: #00a8e8ff;
     color: white;
 }
