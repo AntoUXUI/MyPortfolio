@@ -376,6 +376,8 @@ section {
 form {
     display: flex;
     flex-direction: column;
+    flex: 2;
+    gap: 10px;
 }
 
 label {
@@ -426,7 +428,7 @@ button[type="submit"]:hover {
 
 
 .image-container {
-    flex: shrink;
+    flex: 1;
     max-width: 600px;
 }
 
