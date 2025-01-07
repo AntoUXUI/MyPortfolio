@@ -159,6 +159,11 @@ p {
         display: flex;
         flex-direction: column;
     }
+    
+    .form {
+        align-items: center;
+        width: 100%;
+    }
 
     .image-container {
         order: -1;
