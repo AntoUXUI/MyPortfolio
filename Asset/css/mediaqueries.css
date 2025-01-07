@@ -148,7 +148,7 @@ p {
 
     /* Contact Section */
     .contact-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .contact-image {
