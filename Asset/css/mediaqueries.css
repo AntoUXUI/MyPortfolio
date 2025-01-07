@@ -160,14 +160,8 @@ p {
         flex-direction: column;
     }
     
-    .form { 
+    .form { ;
         width: 100%;
-        max-width: 600px; /* Set a maximum width */
-        margin: 0 auto; /* Center the form */
-        padding: 1rem; /* Add some padding */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-        background-color: #fff; /* Set a background color */
-        border-radius: 8px; /* Round the corners */
     }
 
     .image-container {
