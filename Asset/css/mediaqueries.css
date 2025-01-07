@@ -151,14 +151,15 @@ p {
         display: flex;
         flex-direction: column;
     }
+
     .image-container {
         order: -1;
         display: flex;
         flex: auto;
         width: fit-content;
     }
+
     .contact-image {
-        order: -1;
         margin-bottom: 1rem;
     }
 
@@ -213,6 +214,10 @@ p {
 
     .section-container {
         flex-direction: column;
+    }
+
+    .contact-form {
+        order: 1;
     }
 }
 
