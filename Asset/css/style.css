@@ -421,7 +421,6 @@ button[type=submit]:hover {
 
 .image-container {
   order: -1;
-  flex: 1;
   max-width: 600px;
 }
 
