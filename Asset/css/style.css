@@ -365,8 +365,9 @@ form {
   align-items: center;
   display: flex;
   flex-direction: column;
-  flex: 2;
+  flex: 1;
   gap: 10px;
+  min-width: 300px;
 }
 
 label {
@@ -387,6 +388,7 @@ textarea {
   transition: all 0.3s ease;
   background: #f2f2f2; /* Colore di default */
   color: var(--color-text); /* Testo scuro */
+  width: 80%;
 }
 
 input:focus,
@@ -406,6 +408,7 @@ button[type=submit] {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+  width: 80%;
 }
 
 button[type=submit]:hover {
@@ -413,6 +416,7 @@ button[type=submit]:hover {
   color: white; /* Testo bianco */
   box-shadow: 0 4px 8px rgba(0, 168, 232, 0.3); /* Glow effetto hover */
   transform: translateY(-2px); /* Sollevamento al passaggio */
+  width: 80%;
 }
 
 .image-container {
@@ -423,7 +427,6 @@ button[type=submit]:hover {
 
 .image-container {
   display: flex;
-  flex: auto;
   width: fit-content;
 }
 
