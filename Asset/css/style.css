@@ -475,6 +475,7 @@ textarea {
     padding: 1.5rem;
     width: calc(33.33% - 2rem); /* Three cards per row */
     text-align: left;
+    min-width: 250px;
   }
   
   .cv-card h3 {
