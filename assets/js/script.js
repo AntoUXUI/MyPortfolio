@@ -14,9 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
         menuLinks.classList.toggle("open");
         hamburgerIcon.classList.toggle("open");
     });
-
-    document.getElementById('downloadCV').onclick = function() {
-        window.open('./assets/pdf/CV-Antonio.pdf', '_blank');
-    };
-
 });
+
+document.getElementById('downloadCV').onclick = function() {
+    window.open('./assets/pdf/CV-Antonio.pdf', '_blank');
+};
